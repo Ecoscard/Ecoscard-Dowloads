@@ -58,6 +58,21 @@ Cliente DataPrep que envia arquivos de embossing à API DataPrep e grava os arqu
 | Execução | `start-worker.bat` (monitora pasta) ou `start-console.bat` (um arquivo); serviço com `install-windows-service.ps1` |
 <!-- END ecoscard-dataprep-client-worker -->
 
+<!-- BEGIN ecoscard-dataprep-configeditor-web -->
+### Ecoscard DataPrep ConfigEditor
+
+Editor web das configurações do DataPrep (Bootstrap, ProjectProcessing e projetos da API), com validação, diagrama 3D, prévia de payloads e extração de ALU MULTOS.
+
+| Item | Valor |
+| --- | --- |
+| Nome técnico | `ecoscard-dataprep-configeditor-web` (antes `EcosDataPrepConfigEditorGitRepo`) |
+| Versão atual | [20.26.11.19-r3](../../releases/tag/ecoscard-dataprep-configeditor-web-20.26.11.19-r3) — 19/11/2026 |
+| Download | [`ecoscard-dataprep-configeditor-web-20.26.11.19-r3-win-x64.zip`](../../releases/download/ecoscard-dataprep-configeditor-web-20.26.11.19-r3/ecoscard-dataprep-configeditor-web-20.26.11.19-r3-win-x64.zip) |
+| SHA-256 | `8f8783e0aabfd86af52838c64a46a6950078a7523f4b78978899f2974ddf9700` |
+| Plataforma | Windows x64 (self-contained, não exige .NET instalado); Docker `suporte472/ecoscard-dataprep-configeditor-web` |
+| Execução | `start.bat`, abre em `http://127.0.0.1:5098` |
+<!-- END ecoscard-dataprep-configeditor-web -->
+
 ## Como instalar
 
 1. Abra a versão atual da aplicação na tabela acima ou em [Releases](../../releases).

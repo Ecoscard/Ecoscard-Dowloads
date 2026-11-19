@@ -66,9 +66,9 @@ Editor web das configurações do DataPrep (Bootstrap, ProjectProcessing e proje
 | Item | Valor |
 | --- | --- |
 | Nome técnico | `ecoscard-dataprep-configeditor-web` (antes `EcosDataPrepConfigEditorGitRepo`) |
-| Versão atual | [20.26.11.19-r3](../../releases/tag/ecoscard-dataprep-configeditor-web-20.26.11.19-r3) — 19/11/2026 |
-| Download | [`ecoscard-dataprep-configeditor-web-20.26.11.19-r3-win-x64.zip`](../../releases/download/ecoscard-dataprep-configeditor-web-20.26.11.19-r3/ecoscard-dataprep-configeditor-web-20.26.11.19-r3-win-x64.zip) |
-| SHA-256 | `8f8783e0aabfd86af52838c64a46a6950078a7523f4b78978899f2974ddf9700` |
+| Versão atual | [20.26.11.19-r5](../../releases/tag/ecoscard-dataprep-configeditor-web-20.26.11.19-r5) — 19/11/2026 |
+| Download | [`ecoscard-dataprep-configeditor-web-20.26.11.19-r5-win-x64.zip`](../../releases/download/ecoscard-dataprep-configeditor-web-20.26.11.19-r5/ecoscard-dataprep-configeditor-web-20.26.11.19-r5-win-x64.zip) |
+| SHA-256 | `902cdcd204d80833c4c316b9d749b7d4fc43a6a781c02c3effd3edd1dcb51d55` |
 | Plataforma | Windows x64 (self-contained, não exige .NET instalado); Docker `suporte472/ecoscard-dataprep-configeditor-web` |
 | Execução | `start.bat`, abre em `http://127.0.0.1:5098` |
 <!-- END ecoscard-dataprep-configeditor-web -->

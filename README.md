@@ -51,9 +51,9 @@ Cliente DataPrep que envia arquivos de embossing à API DataPrep e grava os arqu
 | Item | Valor |
 | --- | --- |
 | Nome técnico | `ecoscard-dataprep-client-worker` (antes `EcosDataPrep.Client`) |
-| Versão atual | [20.26.11.19](../../releases/tag/ecoscard-dataprep-client-worker-20.26.11.19) — 19/11/2026 |
-| Download | [`ecoscard-dataprep-client-worker-20.26.11.19-win-x64.zip`](../../releases/download/ecoscard-dataprep-client-worker-20.26.11.19/ecoscard-dataprep-client-worker-20.26.11.19-win-x64.zip) |
-| SHA-256 | `992d463eba8484238f00f536990434359520755bbc1d6cb46d181c694580352a` |
+| Versão atual | [20.26.11.19-r2](../../releases/tag/ecoscard-dataprep-client-worker-20.26.11.19-r2) — 19/11/2026 |
+| Download | [`ecoscard-dataprep-client-worker-20.26.11.19-r2-win-x64.zip`](../../releases/download/ecoscard-dataprep-client-worker-20.26.11.19-r2/ecoscard-dataprep-client-worker-20.26.11.19-r2-win-x64.zip) |
+| SHA-256 | `1c8087b271ae5df0fdbfe2544ec73c924558674876ddb3833e695078bc72c362` |
 | Plataforma | Windows x64 (self-contained, não exige .NET instalado) |
 | Execução | `start-worker.bat` (monitora pasta) ou `start-console.bat` (um arquivo); serviço com `install-windows-service.ps1` |
 <!-- END ecoscard-dataprep-client-worker -->

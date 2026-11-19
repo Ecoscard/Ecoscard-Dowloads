@@ -43,6 +43,21 @@ Serviço de processamento DataPrep (Worker Service com RabbitMQ e Serilog).
 | SHA-256 | `aa30b3997cb15ded2c819f83cc495c411feef1daeb1ae4ef226918205b092e35` |
 | Plataforma | Windows (serviço) e Linux (.NET 8) |
 
+<!-- BEGIN ecoscard-dataprep-client-worker -->
+### Ecoscard DataPrep Client
+
+Cliente DataPrep que envia arquivos de embossing à API DataPrep e grava os arquivos de personalização. Roda em modo console (um arquivo) ou worker (monitora uma pasta, também como serviço Windows).
+
+| Item | Valor |
+| --- | --- |
+| Nome técnico | `ecoscard-dataprep-client-worker` (antes `EcosDataPrep.Client`) |
+| Versão atual | [20.26.11.19](../../releases/tag/ecoscard-dataprep-client-worker-20.26.11.19) — 19/11/2026 |
+| Download | [`ecoscard-dataprep-client-worker-20.26.11.19-win-x64.zip`](../../releases/download/ecoscard-dataprep-client-worker-20.26.11.19/ecoscard-dataprep-client-worker-20.26.11.19-win-x64.zip) |
+| SHA-256 | `992d463eba8484238f00f536990434359520755bbc1d6cb46d181c694580352a` |
+| Plataforma | Windows x64 (self-contained, não exige .NET instalado) |
+| Execução | `start-worker.bat` (monitora pasta) ou `start-console.bat` (um arquivo); serviço com `install-windows-service.ps1` |
+<!-- END ecoscard-dataprep-client-worker -->
+
 ## Como instalar
 
 1. Abra a versão atual da aplicação na tabela acima ou em [Releases](../../releases).

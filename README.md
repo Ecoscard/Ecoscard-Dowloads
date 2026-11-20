@@ -21,18 +21,6 @@ Aplicação web para gerar as configurações DataPrep MULTOS PrivateSmart (Regi
 | Execução | `start.ps1`, abre em `http://127.0.0.1:5080` |
 <!-- END ecoscard-dataprep-multos-privatesmart-config -->
 
-### Ecoscard HsmGateway Worker
-
-Serviço TCP que valida criptogramas EMV (comando A1: ARQC e ARPC com Tag 91) direto no HSM via PKCS#11.
-
-| Item | Valor |
-| --- | --- |
-| Nome técnico | `ecoscard-hsmgateway-worker` (antes `EcosWorkerHSMGateway`) |
-| Versão atual | [20.26.11.10](../../releases/tag/EcosWorkerHSMGateway-v20.26.11.10) — 10/11/2026 |
-| Download | [`EcosWorkerHSMGateway.zip`](../../releases/download/EcosWorkerHSMGateway-v20.26.11.10/EcosWorkerHSMGateway.zip) |
-| SHA-256 | `f450b8355ecf152b5f82c70f8334d87aa1798fa6f161e6449e93b92ea92d0d58` |
-| Plataforma | Windows e Linux (.NET 8) |
-
 <!-- BEGIN ecoscard-dataprep-batch-worker -->
 ### Ecoscard DataPrep Batch Worker
 

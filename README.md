@@ -2,6 +2,8 @@
 
 Pacotes compilados das aplicações Ecoscard para clientes e ambientes autorizados. Cada aplicação é publicada em [Releases](../../releases); este README mostra a versão atual de cada uma.
 
+> Este repositório se chamava `Ecoscard-Dowloads` até 20/11/2026. Os links antigos são redirecionados pelo GitHub, mas use o endereço novo: `https://github.com/Ecoscard/ecoscard-downloads`.
+
 ## Aplicações disponíveis
 
 <!-- BEGIN ecoscard-dataprep-multos-privatesmart-config -->
@@ -19,7 +21,7 @@ Aplicação web para gerar as configurações DataPrep MULTOS PrivateSmart (Regi
 | Execução | `start.ps1`, abre em `http://127.0.0.1:5080` |
 <!-- END ecoscard-dataprep-multos-privatesmart-config -->
 
-### EcosWorkerHSMGateway
+### Ecoscard HsmGateway Worker
 
 Serviço TCP que valida criptogramas EMV (comando A1: ARQC e ARPC com Tag 91) direto no HSM via PKCS#11.
 
@@ -31,13 +33,13 @@ Serviço TCP que valida criptogramas EMV (comando A1: ARQC e ARPC com Tag 91) di
 | SHA-256 | `f450b8355ecf152b5f82c70f8334d87aa1798fa6f161e6449e93b92ea92d0d58` |
 | Plataforma | Windows e Linux (.NET 8) |
 
-### EcosDataPrepNetCore
+### Ecoscard DataPrep Batch Worker
 
-Serviço de processamento DataPrep (Worker Service com RabbitMQ e Serilog).
+Serviço de processamento em lote do DataPrep (Worker Service com RabbitMQ e Serilog).
 
 | Item | Valor |
 | --- | --- |
-| Nome técnico | `ecoscard-dataprep-api` (antes `EcosDataPrepNetCore`) |
+| Nome técnico | `ecoscard-dataprep-batch-worker` (antes `EcosDataPrepNetCore`) |
 | Versão atual | [20.26.11.9](../../releases/tag/ecosdataprepnetcore-v20.26.11.9) — 09/11/2026 |
 | Download | [`EcosDataPrepNetCore8.zip`](../../releases/download/ecosdataprepnetcore-v20.26.11.9/EcosDataPrepNetCore8.zip) |
 | SHA-256 | `aa30b3997cb15ded2c819f83cc495c411feef1daeb1ae4ef226918205b092e35` |
@@ -72,6 +74,21 @@ Editor web das configurações do DataPrep (Bootstrap, ProjectProcessing e proje
 | Plataforma | Windows x64 (self-contained, não exige .NET instalado); Docker `suporte472/ecoscard-dataprep-configeditor-web` |
 | Execução | `start.bat`, abre em `http://127.0.0.1:5098` |
 <!-- END ecoscard-dataprep-configeditor-web -->
+
+<!-- BEGIN ecoscard-cardanalyzer-emv-desktop -->
+### Ecoscard CardAnalyzer EMV
+
+Analisador de cartões EMV: simulador de terminal PC/SC (contato e sem contato), validação de ARQC/ARPC e ODA, scripts de emissor e laudos em PDF e Word.
+
+| Item | Valor |
+| --- | --- |
+| Nome técnico | `ecoscard-cardanalyzer-emv-desktop` (antes `Ecoscard.EmvCardAnalyzer`) |
+| Versão atual | [20.26.11.20](../../releases/tag/ecoscard-cardanalyzer-emv-desktop-20.26.11.20) — 20/11/2026 |
+| Download | [`ecoscard-cardanalyzer-emv-desktop-20.26.11.20-win-x64.zip`](../../releases/download/ecoscard-cardanalyzer-emv-desktop-20.26.11.20/ecoscard-cardanalyzer-emv-desktop-20.26.11.20-win-x64.zip) |
+| SHA-256 | `1cce99a4a3f2718081f35ad0ca6863826ab9f89a997fe760976c673500885d22` |
+| Plataforma | Windows x64 (self-contained, não exige .NET instalado); requer leitora com driver PC/SC |
+| Execução | `Ecoscard.CardAnalyzer.Emv.Desktop.exe`; configuração autorizada do laboratório em `Data\config.private.xml` (o pacote não contém IMKs) |
+<!-- END ecoscard-cardanalyzer-emv-desktop -->
 
 ## Como instalar
 

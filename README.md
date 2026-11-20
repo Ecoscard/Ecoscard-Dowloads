@@ -33,17 +33,20 @@ Serviço TCP que valida criptogramas EMV (comando A1: ARQC e ARPC com Tag 91) di
 | SHA-256 | `f450b8355ecf152b5f82c70f8334d87aa1798fa6f161e6449e93b92ea92d0d58` |
 | Plataforma | Windows e Linux (.NET 8) |
 
+<!-- BEGIN ecoscard-dataprep-batch-worker -->
 ### Ecoscard DataPrep Batch Worker
 
-Serviço de processamento em lote do DataPrep (Worker Service com RabbitMQ e Serilog).
+Serviço de processamento em lote do DataPrep (Worker Service com HSM PKCS#11/KMIP, RabbitMQ e Serilog).
 
 | Item | Valor |
 | --- | --- |
 | Nome técnico | `ecoscard-dataprep-batch-worker` (antes `EcosDataPrepNetCore`) |
-| Versão atual | [20.26.11.9](../../releases/tag/ecosdataprepnetcore-v20.26.11.9) — 09/11/2026 |
-| Download | [`EcosDataPrepNetCore8.zip`](../../releases/download/ecosdataprepnetcore-v20.26.11.9/EcosDataPrepNetCore8.zip) |
-| SHA-256 | `aa30b3997cb15ded2c819f83cc495c411feef1daeb1ae4ef226918205b092e35` |
-| Plataforma | Windows (serviço) e Linux (.NET 8) |
+| Versão atual | [20.26.11.20](../../releases/tag/ecoscard-dataprep-batch-worker-20.26.11.20) — 20/11/2026 |
+| Download | [`ecoscard-dataprep-batch-worker-20.26.11.20-win-x64.zip`](../../releases/download/ecoscard-dataprep-batch-worker-20.26.11.20/ecoscard-dataprep-batch-worker-20.26.11.20-win-x64.zip) |
+| SHA-256 | `1058417aaaec9b1e4cf9a47c4b86ef5612183d7e2b51fecc3f3b7f2e88d865aa` |
+| Plataforma | Windows x64 (self-contained, .NET 10, não exige .NET instalado); Docker `suporte472/ecoscard-dataprep-batch-worker` |
+| Execução | serviço Windows (`sc create`, ver notas da release); credenciais por variável de ambiente |
+<!-- END ecoscard-dataprep-batch-worker -->
 
 <!-- BEGIN ecoscard-dataprep-client-worker -->
 ### Ecoscard DataPrep Client

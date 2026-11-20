@@ -14,10 +14,10 @@ Aplicação web para gerar as configurações DataPrep MULTOS PrivateSmart (Regi
 | Item | Valor |
 | --- | --- |
 | Nome técnico | `ecoscard-dataprep-multos-privatesmart-config` (antes `EcosDataPrepConfigMultosPrivateSmart`) |
-| Versão atual | [2.8.0](../../releases/tag/ecosdataprep-v2.8.0) — 06/11/2026 |
-| Download | [`EcosDataPrepconfigMultosPrivateSmart.zip`](../../releases/download/ecosdataprep-v2.8.0/EcosDataPrepconfigMultosPrivateSmart.zip) |
-| SHA-256 | `7cf92b13ee40a69f671c32ae0d683a199d5d4777e7c47a94c1643d4af2922b3f` |
-| Plataforma | Windows x64 |
+| Versão atual | [20.26.11.20](../../releases/tag/ecoscard-dataprep-multos-privatesmart-config-20.26.11.20) — 20/11/2026 |
+| Download | [`ecoscard-dataprep-multos-privatesmart-config-20.26.11.20-win-x64.zip`](../../releases/download/ecoscard-dataprep-multos-privatesmart-config-20.26.11.20/ecoscard-dataprep-multos-privatesmart-config-20.26.11.20-win-x64.zip) |
+| SHA-256 | `e00f0e42873092db52e03a4d00c0b98e0e039542074a25999916c052e390bf66` |
+| Plataforma | Windows x64, autocontido (não exige .NET instalado) |
 | Execução | `start.ps1`, abre em `http://127.0.0.1:5080` |
 <!-- END ecoscard-dataprep-multos-privatesmart-config -->
 

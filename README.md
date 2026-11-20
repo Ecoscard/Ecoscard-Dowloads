@@ -101,9 +101,9 @@ Gateway TCP para comandos A1 (validação de criptograma EMV) com PKCS#11 direto
 | Item | Valor |
 | --- | --- |
 | Nome técnico | `ecoscard-hsm-gateway-worker` (antes `EcosWorkerHSMGateway`) |
-| Versão atual | [20.26.11.20-r3](../../releases/tag/ecoscard-hsm-gateway-worker-20.26.11.20-r3) — 20/11/2026 |
-| Download | [`ecoscard-hsm-gateway-worker-20.26.11.20-r3-win-x64.zip`](../../releases/download/ecoscard-hsm-gateway-worker-20.26.11.20-r3/ecoscard-hsm-gateway-worker-20.26.11.20-r3-win-x64.zip) |
-| SHA-256 | `21ed8ad52368e1c072cf43dee47f9d042999d9a31b7fbe82c02ee9488402d019` |
+| Versão atual | [20.26.11.20-r4](../../releases/tag/ecoscard-hsm-gateway-worker-20.26.11.20-r4) — 20/11/2026 |
+| Download | [`ecoscard-hsm-gateway-worker-20.26.11.20-r4-win-x64.zip`](../../releases/download/ecoscard-hsm-gateway-worker-20.26.11.20-r4/ecoscard-hsm-gateway-worker-20.26.11.20-r4-win-x64.zip) |
+| SHA-256 | `9a7143dfd8ff40d0a6ea42dfc2d6d36b654bd59cdb73563403b4f788ada044c5` |
 | Plataforma | Windows x64 (self-contained, não exige .NET instalado) |
 | Execução | serviço Windows com `instalar_servico.bat`; configuração em `appsettings.json` (modelo incluso) |
 <!-- END ecoscard-hsm-gateway-worker -->
